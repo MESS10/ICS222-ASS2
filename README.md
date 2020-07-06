@@ -1,0 +1,2 @@
+# ICS222-ASS2
+Develop a website for a company providing any range of products and services of your liking. The website should clearly show/ describe the products and services, have a suitable home page and also show their contact details and brief company profile. – Use HTML to develop the site – The site should have THREE pages – use an external style sheet as a template for all the pages, making sure that all tables, list, boarder and backgrounds have a unified theme
