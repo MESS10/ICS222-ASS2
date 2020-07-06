@@ -1,0 +1,189 @@
+body{
+    margin: opx;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    height: 300px;
+    background: rgb(114, 106, 224);
+}
+.nav{
+    width: 1000px;
+    height: 50px;
+    background: white;
+    margin-left: 10px;
+}
+.nav ul{
+    list-style: none;
+    margin-left: 0px;
+    }
+        .nav ul li{
+            float: left;
+            width: 175px;
+            padding: 15px 0;
+            font-size: 20px;
+        }
+        .nav ul li:hover{
+            background-color: lightblue ;
+            color: rgb(34, 31, 218);
+        
+        }
+        .nav a{
+            color: black;
+        }
+.middle{
+
+}
+.footer{
+    height: 300px;
+    background: rgb(95, 90, 90);
+    text-align: centre;
+}
+p{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration-style: solid;
+}
+.moto{
+    text-align: right;
+    font-style: italic;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.top{
+    height:150px;
+    width:100%;
+    margin-top:60px;
+    padding-top:23px;
+}
+.namee{
+    height:100px;
+    width:50%;
+    text-align:center;
+    float:left;
+    
+}
+.motoo{
+    height:100px;
+    width:50%;
+    
+    text-align:center;
+    float:left;
+}
+.name{
+    color:red;
+
+    text-align: left;
+    font-style: italic;
+    padding-top:20px;
+    margin-left: 15px;
+	margin-top: 15px;
+    font-size: 30px;
+}
+.detail{
+    margin-top: 50%;
+}
+.suit1{
+    font-size: 15px;
+    width: 300px;
+    height: 400px;
+    float: left;
+    background: url("d1.jpg") no-repeat;
+    background-size: 50%;
+}
+.suit2{
+    margin-left:5px;
+    font-size: 15px;
+    width: 300px;
+    height: 400px;
+    float: left;
+    background: url("d4.jpg") no-repeat;
+    background-size: 50%;
+}
+.suit3{
+    margin-left: 5px;
+    font-size: 15px;
+    width: 300px;
+    height: 400px;
+    float: left;
+    background: url("j3.jpg") no-repeat;
+    background-size: 50%;
+}
+.trouse1{
+    font-size: 15px;
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: url("d2.jpg") no-repeat;
+    background-size: 50%;
+}
+.trouse2{
+    margin-left: 25px;
+    font-size: 15px;
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: url("s6.jpg")no repeat;
+    background-size: 50%;
+}
+.trouse3{
+    margin-left: 25px;
+    font-size: 15px;
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: url("d3.jpg") no-repeat;
+    background-size: 50%;
+}
+
+.shirt1{
+    font-size: 15px;
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: url("st1.jpg") no-repeat;
+    background-size: 50%;
+}
+.shirt2{
+    margin-left: 25px;
+    font-size: 15px;
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: url("st3.jpg") no-repeat;
+    background-size: 50%;
+}
+.shirt3{
+    margin-left: 25px;
+    font-size: 15px;
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: url("b1.jpg") no-repeat;
+    background-size: 50%;
+}
+
+.footerclass{
+    font-size: 25px;
+    text-align: center;
+}
+.topic{
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    background: rgb(114, 106, 224);
+}
+
+
+#purchases{
+    float: left;
+    margin-left: 150px;
+    height: 50px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    font-size: 20px
+}

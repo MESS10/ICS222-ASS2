@@ -1,0 +1,37 @@
+form{
+    width: 650px;
+    padding: 20px;
+    margin: 0 auto;
+}
+body{
+    background:rgb(219, 219, 210);
+    background-image:url(Screenshot.png); 
+}
+.intext{
+    width: 500px;
+    height: 40px;
+    margin: 5px;
+}
+#dpt{
+    width: 500px;
+    height: 40px;
+    margin: 5px;
+}
+#btn1{
+background: black;
+color: rgb(247, 238, 238);
+border: 1px solid black;
+height: 25px;
+margin-left: 150px;
+font-size: 15px;
+height: 35px;
+}
+#btn2{
+background: black;
+color: white;
+border: 1px solid black;
+height: 25px;
+margin-left: 15px;
+font-size: 15px;
+height: 35px;
+}

@@ -1,0 +1,218 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: yellow;
+
+}
+/* css of the hearder div*/
+#header{
+    width: 100%;
+    height: 200px;
+    background:yellow;
+}
+/* start of css of navigation bar */
+.nav{
+    width: 100%;
+    height: 50px;
+    background:yellow;
+}
+.nav ul{
+    list-style: none;
+    margin-left: 20%;
+    }
+        .nav ul li{
+            float: left;
+            width: 175px;
+            padding: 15px 0;
+            font-size: 20px;
+        }
+        .nav ul li:hover{
+            background-color: whitesmoke ;
+            color:green;
+        }
+        .nav a{
+            color: black;
+        }
+        .log1{
+            
+            background-size: cover;
+            width: 300px;
+            height: 150px;
+            margin-left: 40px;
+            float: left;
+        }
+        .name{
+    color:black;
+
+    text-align: left;
+    font-style: italic;
+    padding-top:20px;
+    margin-left: 15px;
+	margin-top: 15px;
+    font-size: 30px;
+}
+
+        .searchbar{
+            margin-left: 50%;
+            width: 675px;
+            height: 60px;
+            margin-top: 15px;
+        
+        }
+        input{
+            position: relative;
+            display: inline-block;
+            font-size: 20px;
+            box-sizing: border-box;
+            transition: .5s;     
+        }
+        input[type = "text"]
+        {
+            background: #fff;
+            width: 540px;
+            height: 50px;
+            border: none;
+            outline: none;
+            padding: 0 25px;
+            border-radius: 25px 0 0 25px;
+        }
+        input[type = "submit"]{
+            position: relative;
+            left: -5px;
+            border-radius:0 25px 25px 0;
+            width: 75px;
+            height: 50px;
+            border:none;
+            outline: none;
+            cursor: pointer;
+            background:lemon;
+            color: #fff;
+        }
+        input[type="submit"]:hover{
+            background: rgb(110, 94, 94);
+        }
+
+
+        
+
+/* css of the body */
+#middle{
+    height: 650px;
+background-color:light blue;
+}
+#footer{
+    height: 400px;
+    background:yellow;
+    text-align: centre;
+    
+}
+.slder{
+    width: 100%;
+    height: 500px;
+    background: url(s5.jpn) no-repeat;
+    background-size: cover;
+    animation: slide 90s infinite;
+    background-color: aquamarine;
+}
+#btn1{
+    margin-left: 80%;
+    height: 40px;
+    width: 90px;
+}
+#btn2{
+    margin-left: ;
+    height: 40px;
+    width: 155px;
+}
+  .img1{
+            
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+            margin-left: 40px;
+            float: left;
+ background: url("d7.jpg") no-repeat;
+        }
+  .img2{
+            
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+            margin-left: 40px;
+            float: left;
+ background: url("GAN.jpg") no-repeat;
+        }
+  .img3{
+            
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+            margin-left: 40px;
+            float: left;
+ background: url("t4.jpg") no-repeat;
+        }
+  .img4{
+            
+            background-size: cover;
+            width: 250px;
+            height: 300px;
+            margin-left: 40px;
+            float: left;
+	 background: url("d8.jpg") no-repeat;
+        }
+.img11{
+            
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+            margin-left: 40px;
+            float: left;
+ background: url("tie2.jpg") no-repeat;
+        }
+  .img22{
+            
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+            margin-left: 40px;
+            float: left;
+ background: url("st5.jpg") no-repeat;
+        }
+  .img33{
+            
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+            margin-left: 40px;
+            float: left;
+ background: url("t3.jpg") no-repeat;
+        }
+  .img44{
+            
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+            margin-left: 40px;
+            float: left;
+	 background: url("t4.jpg") no-repeat;
+        }
+  .img55{
+            
+            background-size: cover;
+            width: 250px;
+            height: 300px;
+            margin-left: 40px;
+            float: left;
+	 background: url("t5.jpg") no-repeat;
+        }
+.footer{
+    font-size: 25px;
+    text-align: center;
+background-color:yellow;
+
+}
+#footer {
+    background-color: yellow;    
+    clear: both;
+    text-align: center;   
+}
