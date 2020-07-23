@@ -1,0 +1,66 @@
+body{
+    margin: opx;
+    padding: 0px;
+    background-color: yellow;
+}
+
+.header{
+    width: 100%;
+    height: 300px;
+    background: rgb(114, 106, 224);
+}
+
+.manager{
+    height: 300px;
+    width: 100%;
+    
+    margin-top: 5px;
+    
+}
+.manager1{
+    height: 300px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 10px;
+    float:left;
+    border-radius:100px;
+    background: url("stev.jpg") no-repeat;
+    background-size: 100%;
+}.manager3{
+    height: 100px;
+    width: 700px;
+    margin-top: 5px;
+    padding:5px;
+    margin-left:10px;
+    float:left;
+}
+
+.sales{
+    height: 400px;
+    width: 100%;
+    margin-top: 5px;
+    
+}
+.sale1{
+    height: 200px;
+    width: 200px;
+    margin-top: 5px;
+    float:left;
+    border-radius:100px;
+    background: url("67.jpg") no-repeat;
+    background-size: 100%;
+}
+.sale3{
+    height: 400px;
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 200px;
+    float:left;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    text-align: center;
+}
