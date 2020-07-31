@@ -1,66 +1,138 @@
-body{
-    margin: opx;
-    padding: 0px;
-    background-color: yellow;
+html {
+  background-color: black;
 }
 
-.header{
-    width: 100%;
-    height: 300px;
-    background: rgb(114, 106, 224);
+/*Menu Bar*/
+.menuBar {
+  background-color:yellow;
+  height: 50px;
+  
+  /* margin-top: -16px; */
 }
 
-.manager{
-    height: 300px;
-    width: 100%;
-    
-    margin-top: 5px;
-    
-}
-.manager1{
-    height: 300px;
-    width: 200px;
-    margin-top: 5px;
-    margin-left: 10px;
-    float:left;
-    border-radius:100px;
-    background: url("stev.jpg") no-repeat;
-    background-size: 100%;
-}.manager3{
-    height: 100px;
-    width: 700px;
-    margin-top: 5px;
-    padding:5px;
-    margin-left:10px;
-    float:left;
+.menuBar > ul {
+  list-style-type: none;
+  /* margin: 0; */
+  padding: 0;
+  overflow: hidden;
 }
 
-.sales{
-    height: 400px;
-    width: 100%;
-    margin-top: 5px;
-    
-}
-.sale1{
-    height: 200px;
-    width: 200px;
-    margin-top: 5px;
-    float:left;
-    border-radius:100px;
-    background: url("67.jpg") no-repeat;
-    background-size: 100%;
-}
-.sale3{
-    height: 400px;
-    width: 300px;
-    margin-top: 5px;
-    margin-left: 200px;
-    float:left;
+/* when a menu is selected */
+.active {
+  /* background-color: #ebe5e8; */
+  color: rgb(206, 142, 22);
 }
 
+.menuBar > ul > li {
+  border-right: 1px solid gray;
+  /* IT WAS; display: inline; */
+  float: left;
+  /* list-style-type: none; */
+}
 
-footer{
-    text-align: center;
-    font-size: 25px;
-    text-align: center;
+.menuBar > ul > li:last-child {
+  border-right: none;
+}
+.menuBar > ul > li > a {
+  text-decoration: none;
+  padding: 17px;
+  color: black;
+  display: block;
+  /* width: 60px; */
+  /* line-height: 50px; */
+}
+
+.menuBar > ul > li > a:hover {
+  color: rgb(206, 142, 22);
+  background-color: #eae8e6;
+}
+
+/* Enquiries */
+.img-50-all {
+  max-width: 50px;
+  max-height: 50px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+/*Place your orders */
+.list-inline {
+  list-style-type: none;
+}
+.list-inline > li {
+  display: inline;
+}
+.list-inline > li > a {
+  text-decoration: none;
+  display: inline;
+}
+
+/* Products gallery */
+.product_gallery {
+  margin: 0 auto;
+  width: 1200px;
+  list-style: none;
+}
+.product_gallery li {
+  float: left;
+  width: 300px;
+  margin-top: 30px;
+  margin-right: 50px;
+  border: 1px;
+  color: #999;
+}
+.product_gallery img {
+  width: 300px;
+  height: 200px;
+  float: left;
+}
+
+/* by default, the description is hidden until user hovers around the product */
+.product_description {
+  background: rgb(0, 0, 0, 0.6);
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  /* Add Opacity and Transition to give the transition effect when hovered */
+  opacity: 0;
+  transition: 1s ease-in;
+}
+/* create the css block of the product description when you hover */
+.product_gallery li:hover .product_description {
+  opacity: 0.7;
+}
+
+.product_description p {
+  padding: 10px;
+  color:yellow;
+  font-size: 18px;
+}
+
+.product_information {
+  height: 40px;
+  background: black;
+  width: 100%;
+  float: left;
+}
+
+.product_information h4 {
+  float: left;
+  color: yellow;
+  width: 70%;
+  margin: 10px;
+}
+h3{
+  color:yellow;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100px;
+}
+p{
+  color:yellow;
+}
+.product_information span {
+  float: right;
+  color: yellow;
+  margin: 5px;
+  font-size: 20px;
 }
